@@ -1,6 +1,6 @@
 import React from 'react';
+import type { ChatMessage } from '../types';
 import { sendMessageToN8n } from '../services/n8nService';
-import { ChatMessage } from '../types';
 
 const ChatIcon: React.FC<{ onClick: () => void }> = ({ onClick }) => (
   <button
@@ -92,7 +92,7 @@ const ChatWindow: React.FC<{
     );
 }
 
-export const Chatbot: React.FC = () => {
+const Chatbot: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(false);
   const [messages, setMessages] = React.useState<ChatMessage[]>([
@@ -138,3 +138,5 @@ export const Chatbot: React.FC = () => {
     </>
   );
 };
+
+export default Chatbot;

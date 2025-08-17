@@ -1,7 +1,7 @@
 import React from 'react';
-import { Chatbot } from './components/Chatbot';
+import Chatbot from './components/Chatbot';
 
-export const App = () => {
+const App = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const navLinks = (
@@ -77,3 +77,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;

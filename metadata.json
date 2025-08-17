@@ -1,5 +1,5 @@
 {
   "name": "AI Chatbot Website Template",
-  "description": "A simple website template featuring an AI-powered chatbot in the bottom right corner. The chatbot is designed to connect to an n8n webhook to process messages and return responses.",
+  "description": "  Hello A simple website template featuring an AI-powered chatbot in the bottom right corner. The chatbot is designed to connect to an n8n webhook to process messages and return responses.",
   "requestFramePermissions": []
 }

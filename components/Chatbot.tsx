@@ -1,6 +1,6 @@
 import React from 'react';
-import { ChatMessage } from '../types';
 import { sendMessageToN8n } from '../services/n8nService';
+import { ChatMessage } from '../types';
 
 const ChatIcon: React.FC<{ onClick: () => void }> = ({ onClick }) => (
   <button
